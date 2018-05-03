@@ -14,16 +14,18 @@
   </head>
   <body>
 
-    <div class="container-fluid" id="nav">
+<div id="topBar">
 
-    </div>
+</div>
 
 
-    <script type="text/javascript">
-      $(function(){
-     $("#nav").load("nav.html");
-     });
-       </script>
+<script>
+
+    $("#topBar").on("click",function(){
+            $("#content").load("nav.html");
+    });
+</script>
+
 
 <h1>TEST HERE</h1>
 
