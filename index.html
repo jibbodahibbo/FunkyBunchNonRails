@@ -13,7 +13,11 @@
   </head>
   <body>
 
-
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var nav = link.import.querySelector('nav');
+        document.body.appendChild(nav.cloneNode(true));
+    </script>
 
 
 <div class="header">
