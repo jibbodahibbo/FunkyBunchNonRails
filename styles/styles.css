@@ -1,0 +1,33 @@
+body{
+background-image: url("../images/golf_bg.jpg");
+font-family: garamond;
+}
+
+.navbar{
+  width:20%;
+  border-right:10;
+  border-style:ridge ridge ridge none;
+}
+
+.main{
+
+  width:80%;
+}
+
+.header{
+
+text-align: center;
+padding:30px;
+width:100%;
+}
+
+.content{
+padding:30px;
+  text-align: center;
+}
+
+.footer{
+
+  text-align: center;
+
+}
