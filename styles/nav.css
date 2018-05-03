@@ -1,0 +1,16 @@
+ul{
+
+    list-style-image: url('../images/flag.gif');
+    list-style-position: inside;
+
+}
+
+ul a{
+  color:darkblue;
+
+}
+
+ul a:hover{
+
+  color:white;
+}

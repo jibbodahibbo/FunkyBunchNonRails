@@ -7,15 +7,27 @@ font-family: garamond;
   width:20%;
   border-right:10;
   border-style:ridge ridge ridge none;
+
+
 }
 
+.navbar iframe{
+  border: none;
+height: 500px;
+
+}
+
+iframe[seamless] {
+    display: float;
+
+}
 .main{
 
   width:80%;
 }
 
 .header{
-
+color:darkblue;
 text-align: center;
 padding:30px;
 width:100%;
