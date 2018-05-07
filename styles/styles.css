@@ -23,6 +23,10 @@ padding:40px;
   list-style-image: url("../images/flag.gif");
   }
 
+.content ul li{
+
+  list-style-type: none;
+}
 
 .main{
 
