@@ -5,22 +5,25 @@ font-family: garamond;
 
 .navbar{
   width:20%;
+  height: 100px;
   border-right:10;
   border-style:ridge ridge ridge none;
-
-
-}
-
-.navbar iframe{
-  border: none;
-height: 500px;
+  vertical-align: text-top;
+  text-align:left;
 
 }
 
-iframe[seamless] {
-    display: float;
+.navbar ul{
 
+padding:40px;
 }
+
+.navbar ul li{
+  list-style-position: inside;
+  list-style-image: url("../images/flag.gif");
+  }
+
+
 .main{
 
   width:80%;
