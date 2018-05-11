@@ -28,6 +28,10 @@ padding:40px;
   list-style-type: none;
 }
 
+.content ul li img{
+  width:500px;
+}
+
 .main{
 
   width:100%;
@@ -36,7 +40,7 @@ padding:40px;
 .header{
 color:darkblue;
 text-align: center;
-padding:30px;
+padding:10px;
 width:100%;
 }
 
@@ -61,4 +65,5 @@ list-style-type:circle;
   font-size: 50px;
   background-color:white;
   padding:20px;
+
 }
